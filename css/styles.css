@@ -1,0 +1,100 @@
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+body {
+  background-color: hsl(185, 75%, 39%);
+  text-align: center;
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  margin: 0;
+}
+
+.pattern-top {
+  position: absolute;
+  bottom: 35%;
+  right: 53%;
+  z-index: -1;
+}
+
+.pattern-bottom {
+  position: absolute;
+  top: 42%;
+  left: 52%;
+  z-index: -1;
+}
+
+.card-designdiv {
+  background-color: white;
+  border-radius: 10px;
+  display: inline-block;
+  font-family: 'Kumbh Sans', sans-serif;
+  margin-top: 80px;
+  box-shadow: 0 1px 10px 1px hsl(227deg 10% 46%);
+}
+
+.pattern-card {
+  display: block;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.image-victor {
+  position: relative;
+  bottom: 48px;
+  border: 4px solid white;
+  border-radius: 50%;
+}
+
+main {
+  margin-top: -20px;
+}
+
+footer {
+  border-top: 1px solid hsl(0, 0%, 59%);
+}
+
+.age {
+  font-weight: 700;
+  color: hsl(0, 0%, 59%);
+}
+
+.city {
+  font-weight: 400;
+  font-size: 16px;
+  color: hsl(0, 0%, 59%);
+  margin: 8px auto 20px;
+}
+
+.name {
+  color: hsl(229, 23%, 23%);
+  font-weight: 700;
+  font-size: 18px;
+}
+
+.Followersdiv {
+  display: inline-block;
+  margin-bottom: 0;
+  padding: 0 15px;
+}
+
+.num {
+  font-weight: 700;
+  margin-bottom: 0;
+  color: hsl(229, 23%, 23%);
+}
+
+h4 {
+  color: hsl(0, 0%, 59%);
+  font-weight: 400;
+  font-size: 10px;
+  letter-spacing: 2px;
+  margin-top: 0;
+}
